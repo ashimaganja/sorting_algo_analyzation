@@ -9,4 +9,4 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
